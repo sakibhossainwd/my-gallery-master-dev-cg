@@ -22,16 +22,48 @@ p{
 }
 /* network */
 .network{
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     gap: 5%;
+}
+.count h2{
+    font-size: 2vh;
 }
 .count{
     background-color: #e5e5e5;
     padding: 1.5% 4%;
     border-radius: 5%;
 }
+
+/* main part */
+main{
+  width: 90%;
+  margin: auto;
+}
+.gallary img{
+  width: 100%;
+  border-radius: 2%;
+}
+.item-b{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item-d{
+  grid-row: span 2;
+}
+.item-c{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.gallary{
+    margin-top: 10%;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 @media only screen and (max-width: 576px){
     .user img{
     width: 40%;
