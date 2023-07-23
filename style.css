@@ -43,6 +43,7 @@ main{
 }
 .gallary img{
   width: 100%;
+  height: 100%;
   border-radius: 2%;
 }
 .item-b{
@@ -59,7 +60,7 @@ main{
 .gallary{
     margin-top: 10%;
     display: grid;
-    gap: 2%;
+    gap: 1%;
     grid-template-columns: repeat(3, 1fr);
 }
 
