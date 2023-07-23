@@ -15,7 +15,23 @@ header{
     width: 20%;
     border-radius: 10%;
 }
-
+p{
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgb(155, 153, 153);
+}
+/* network */
+.network{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.count{
+    background-color: #e5e5e5;
+    padding: 1.5% 4%;
+    border-radius: 5%;
+}
 @media only screen and (max-width: 576px){
     .user img{
     width: 40%;
